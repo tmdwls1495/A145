@@ -51,9 +51,9 @@
     ];
     let questHTML = '';
     let k = 1;
-    const render = () => {
+    const addQuest = () => {
         for (i = 0; i < Array1.length; i += 4) {
-            k += 2;
+            console.log(k)
             questHTML +=
                 `<div class="quest">
                 <div class="letter">${Array1[i]}</div>
@@ -65,6 +65,8 @@
                 <div class="letter">${Array1[i + 3]}</div>
             </div>
             `;
+            k += 2;
+            
         }
         document.getElementById('question').innerHTML = questHTML;
 
@@ -92,9 +94,11 @@
                
                 const result = document.getElementById('result');
                 if (imageId === answer[blank.id]) {
+                    console.log(answer[blank.id], answer[blank])
                     result.textContent = `정답입니다!`;
                     
                 } else {
+                    console.log(answer[blank.id])
                     blank.innerHTML = ''; 
                     result.textContent = `틀렸습니다. 다시 시도해주세요`;
                    
@@ -102,8 +106,7 @@
             });
         });
     }
-
-    render();
+    addQuest();
 </script>
 
 </html>
