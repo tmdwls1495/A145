@@ -1,0 +1,80 @@
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+.container {
+    background-color: pink;
+    color: black;
+    padding: 2ch;
+}
+
+.head-line {
+    margin-top: 50px;
+    font-size: 20px;
+    font-family: 'Nanum Barun Gothic';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sque {
+    border-top: 4px double #ebebeb;
+    border-left: 4px double #ebebeb;
+    border-bottom: 4px double #ebebeb;
+    border-right: 4px double #ebebeb;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.sque h1 {
+    margin-top: 30px;
+    font-size: 30px;
+    font-family: 'Nanum Barun Gothic';
+    margin-bottom: 20px;
+}
+
+.example {
+    position: static;
+    float: top;
+    margin-bottom: 50px;
+}
+
+.blank {
+    width: 100px;
+    height: 100px;
+    border: 3px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.quest {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 80px;
+    position: static;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.blank img {
+    width: 100px;
+    height: 100px;
+}
+.sque div{
+    font-size: 50px;
+    color: black;
+}
+.question{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: whitesmoke;
+    border-top: 4px double #ebebeb;
+    border-left: 4px double #ebebeb;
+    border-bottom: 4px double #ebebeb;
+    border-right: 4px double #ebebeb;
+}
